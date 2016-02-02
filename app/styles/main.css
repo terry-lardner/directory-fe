@@ -1,0 +1,144 @@
+
+
+h2, h4 {
+	border-bottom: 1px solid;
+}
+
+li {
+	list-style-type: none;
+}
+
+ul {
+	padding: 0;
+}
+
+input {
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+
+
+
+li.sublist {
+	padding-left: 25px;
+}
+
+.container {
+	font-family: arial;
+	width: 960px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.directoryContainer {		
+	background-color: #4A4B54;
+}
+.addContactContainer {
+	padding: 0 0 10px 0;
+	background-color: #B4B6CC;
+}
+
+.directoryCounter {
+	color: #fff;
+}
+.main-paragraph {
+	background-color: #D6DCE5;
+	margin-top:20px;
+	border-radius: 10px;
+	min-height:25px;
+}
+
+.rollUp,
+.rollDown {
+	float: right;
+}
+
+.rollUp:hover,
+.rollDown:hover {
+	text-decoration: none;
+}
+.rollDown {
+	display: none;
+}
+
+.row,
+.col,
+.col-header,
+.col-input {	
+	/*border: 1px solid;*/
+}
+
+.col {
+	display: inline-block;
+}
+
+.col-header {
+	width: 50px;	
+}
+
+.col-input {
+	width: 300px;	
+}
+
+#infoBox {
+	border-radius: 4px;
+	padding: 2px 5px;
+	margin-left: 20px;
+}
+
+.msg-added {
+	color: #2FBF00;
+	border: 1px solid #2FBF00;
+	background-color: #FAF9F6;
+}
+
+.msg-deleted {
+	color: #FF8029;
+	border: 1px solid #FF8029;
+	background-color: #FAF9F6;
+}
+
+.msg-error {
+	color: red;
+	border: 1px solid red;
+	background-color: #FAF9F6;
+}
+
+.btn-refresh {
+	float:right;
+}
+
+
+.btn-edit,
+.btn-cancel {
+	margin-bottom: 3px;
+}
+
+.btn-cancel  {
+	margin-left: 3px;
+}
+
+.edit {
+	display: initial;
+}
+
+.noEdit {
+	display: none;
+}
+
+.contactCard {
+	background-color: #E1E3FF; 
+	/*border: 1px solid #BFC2C1;*/
+	border-radius: 6px;
+	padding: 4px 0 4px 4px;
+	margin-bottom: 8px;
+	height: 100px;
+}
+
+.contactData {
+	vertical-align: top;
+	margin-left:20px;
+	width:50%;
+}
+
